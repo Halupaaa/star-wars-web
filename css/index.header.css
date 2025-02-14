@@ -1,0 +1,8 @@
+.header {
+    background-color: var(--accent-color);
+
+    .header__logo {
+        font-size: 56px;
+        box-align: center;
+    }
+}
