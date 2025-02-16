@@ -10,6 +10,8 @@
     scroll-behavior: smooth;
     font-family: "DotGothic16", serif;
     --accent-color: rgb(165, 199, 207);
+    --text-color: black;
+    --border-color: black;
 }
 img{
     display: block;
