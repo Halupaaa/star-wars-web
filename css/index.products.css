@@ -1,19 +1,22 @@
 .products {
+    padding: 5px;
+    
     .products__list {
         display:grid;
         gap: 5px;
+        align-items: center;
 
-        @media (min-width: 600px){
+        @media (min-width: 640px){
             grid-template-columns: 1fr 1fr;
         }
-        @media (min-width: 800px){
+        @media (min-width: 960px){
             grid-template-columns: 1fr 1fr 1fr;
         }
-        @media (min-width: 1000px){
+        @media (min-width: 1200px){
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
         .products__item {
-            border: 1px solid var(--border-colar);
+            border: 1px solid var(--border-color);
             padding: 5px;
         }
     }

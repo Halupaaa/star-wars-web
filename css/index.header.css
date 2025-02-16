@@ -1,6 +1,6 @@
 .header {
     background-color: var(--accent-color);
-    padding: 0 15px;
+    padding: 0 5px;
 
     .header__nav {
         @media (min-width: 600px) {
